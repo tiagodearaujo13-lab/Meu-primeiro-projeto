@@ -1,6 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     line-height: 1.6;
-    background-color: darkgoldenrod;
-    color: dimgrey;
+    background-color: cornflowerblue;
+    color: #333;
+}
+
+main {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    padding-left: 30px;
 }
