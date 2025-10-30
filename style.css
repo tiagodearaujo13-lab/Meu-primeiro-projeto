@@ -11,7 +11,7 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: azure;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -21,10 +21,38 @@ h1 {
 
 h2 {
     color: #333;
-    border-bottom: 2px solid #f4f4f4;
+    border-bottom: 2px solid #a04000;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 ul, ol {
     padding-left: 30px;
+}
+
+header {
+    background-color: azure;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0 0.2);
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu-principal a:hover {
+    background-color: #555;
+    border-radius: 5px;
 }
