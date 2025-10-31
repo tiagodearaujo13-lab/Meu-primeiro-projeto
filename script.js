@@ -128,7 +128,7 @@ const elementoBotao = document.querySelector('#botao-mudar');
 function oQueFazerQuandoClicar() {
     console.log("Foi Clicado")
 
-    elementoTitulo.textContent = "Este título foi MUDADO PELO JS!";
+    elementoTitulo.textContent = "Este Título foi MUDADO PELO JS!";
     elementoBotao.textContent = "Obrigado por clicar!";
 }
 
