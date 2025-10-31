@@ -33,7 +33,7 @@ console.log(nomeReceita);
 console.log("É uma receita de Domingo?");
 console.log(eReceitaDeDomingo);
 
-console.log("O terceiro ingrediente da loista é:");
+console.log("O terceiro ingrediente da lista é:");
 console.log(listaIngredientes[2]);
 
 console.log("A receita completa (objeto):");
