@@ -74,3 +74,11 @@ console.log(resultadoDaNossaReceita);
 const resultadoReceitaFacil = avaliarTempoDePreparo(20);
 console.log("Resultado para 20 min:"); 
 console.log(resultadoReceitaFacil);
+
+console.log("--- Imprimindo a Lista de Ingredientes ---");
+
+for (let i = 0; i < listaIngredientes.length; i++) {
+    console.log("Item " + (i + 1) + ": " + listaIngredientes[i]);
+}
+
+console.log("--- Fim da Lista ---");
