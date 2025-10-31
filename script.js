@@ -82,3 +82,45 @@ for (let i = 0; i < listaIngredientes.length; i++) {
 }
 
 console.log("--- Fim da Lista ---");
+
+
+
+
+
+
+
+
+
+
+
+console.log("--- Teste para ver o Js ---");
+
+function calcularIdade(anoDeNascimento) {
+    const anoAtual = 2025;
+    let idade = anoAtual - anoDeNascimento;
+    return idade;
+}
+
+const idadeDoTiago = calcularIdade(1990);
+const idadeDANayma = calcularIdade(1991);
+
+console.log("A idade do Tiago é:");
+console.log(idadeDoTiago);
+
+console.log("A idade Da Nayma é:");
+console.log(idadeDANayma);
+
+
+console.log("--- Aula 10 Começou ---");
+
+const elementoTitulo = document.querySelector('#titulo-da-receita');
+
+console.log("Elemento que o Js agarrou");
+console.log(elementoTitulo);
+
+if (elementoTitulo) {
+    elementoTitulo.textContent = "A MELHOR Receita de Arroz de Pato!";
+}
+else {
+    console.log("ERRO: Não encontri o elemento com id 'titulo-da-receita'");
+}
