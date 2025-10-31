@@ -118,9 +118,19 @@ const elementoTitulo = document.querySelector('#titulo-da-receita');
 console.log("Elemento que o Js agarrou");
 console.log(elementoTitulo);
 
-if (elementoTitulo) {
-    elementoTitulo.textContent = "A MELHOR Receita de Arroz de Pato!";
+
+console.log("O titulo NÃO foi mudado automaticamente.");
+
+console.log("--- Aula 11 Começou! ---");
+
+const elementoBotao = document.querySelector('#botao-mudar');
+
+function oQueFazerQuandoClicar() {
+    console.log("Foi Clicado")
+
+    elementoTitulo.textContent = "Este título foi MUDADO PELO JS!";
+    elementoBotao.textContent = "Obrigado por clicar!";
 }
-else {
-    console.log("ERRO: Não encontri o elemento com id 'titulo-da-receita'");
-}
+
+elementoBotao.addEventListener('click', oQueFazerQuandoClicar);
+
