@@ -57,3 +57,16 @@ header {
     border-radius: 5px;
     color: antiquewhite;
 }
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #a04000;
+    color: azure;
+    border-radius: 10px;
+
+}
+

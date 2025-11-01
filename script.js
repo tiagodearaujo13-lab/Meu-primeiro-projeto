@@ -123,8 +123,10 @@ console.log("O titulo NÃO foi mudado automaticamente.");
 
 console.log("--- Aula 11 Começou! ---");
 
-const elementoBotao = document.querySelector('#botao-mudar');
+let estaTituloMudado = false
 
+const elementoBotao = document.querySelector('#botao-mudar');
+ 
 function oQueFazerQuandoClicar() {
     console.log("Foi Clicado")
 
